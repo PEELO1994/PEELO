@@ -1,5 +1,5 @@
 class puppetti {
-	package {'puppet-common':
+	package {'apache2':
 		ensure => 'installed',
 		
 			allowcdrom => 'true',
