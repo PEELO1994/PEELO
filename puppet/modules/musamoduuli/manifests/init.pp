@@ -20,12 +20,6 @@ class musamoduuli {
 
 	}
 
-	package { hydrogen:
-		require => Exec['apt-update'],
-                ensure => 'installed',
-                allowcdrom => 'true',
-
-	}
 	
 	package { audacity:
                 require => Exec['apt-update'],
