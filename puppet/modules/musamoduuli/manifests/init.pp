@@ -1,3 +1,6 @@
+# Start installed module with just typing the name example: lmms, guitarix
+#
+
 class musamoduuli {
 
 	exec { 'apt-update':
