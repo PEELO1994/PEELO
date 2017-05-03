@@ -1,5 +1,5 @@
-# Start installed module with just typing the name example: lmms, guitarix
-#
+# Start installed softwares with just typing the name on terminal example: lmms, guitarix
+# bash apply.sh
 
 class musamoduuli {
 
