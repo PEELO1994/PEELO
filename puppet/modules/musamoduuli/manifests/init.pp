@@ -8,27 +8,27 @@ class musamoduuli {
 	}
 
 	package { lmms:
-		require => Exec['apt-update'],
+		require => exec['apt-update'],
 		ensure => 'installed',
 		allowcdrom => 'true',
 	}
 
 	package { guitarix:
-		require => Exec['apt-update'],
+		require => exec['apt-update'],
 		ensure => 'installed',
 		allowcdrom => 'true',
 
 	}
 
 	package { hydrogen:
-		require => Exec['apt-update'],
+		require => exec['apt-update'],
                 ensure => 'installed',
                 allowcdrom => 'true',
 
 	}
 	
 	package { audacity:
-                require => Exec['apt-update'],
+                require => exec['apt-update'],
                 ensure => 'installed',
                 allowcdrom => 'true',
 
