@@ -27,5 +27,22 @@ class musamoduuli {
                 allowcdrom => 'true',
 
 	}
+
+
+
+	exec { 'moi2':
+		command => '/usr/bin/lmms',
+		require => Package['lmms'],
+	}
+
+
+	exec { 'moi3':
+		command => '/usr/bin/audacity',
+		require => Package['audacity'],
+	
+	}
+
+
+
    
 }
