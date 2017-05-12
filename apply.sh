@@ -1,1 +1,2 @@
 sudo puppet apply --modulepath puppet/modules/ -e 'class {musamoduuli:}'
+cat moikka.md

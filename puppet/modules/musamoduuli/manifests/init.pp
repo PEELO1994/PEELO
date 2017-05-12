@@ -3,6 +3,8 @@
 
 class musamoduuli {
 
+
+
 	exec { 'apt-update':
 		command => '/usr/bin/apt-get update'
 	}
@@ -30,13 +32,13 @@ class musamoduuli {
 
 
 	exec { 'moi2':
-		command => '/usr/bin/lmms',
+		command => '/usr/bin/lmms &',
 		require => Package['lmms'],
 	}
 
 
 	exec { 'moi3':
-		command => '/usr/bin/audacity',
+		command => '/usr/bin/audacity &',
 		require => Package['audacity'],
 	
 	}
