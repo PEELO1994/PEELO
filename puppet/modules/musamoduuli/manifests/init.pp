@@ -29,7 +29,6 @@ class musamoduuli {
 	}
 
 
-
 	exec { 'moi2':
 		command => '/usr/bin/lmms',
 		require => Package['lmms'],
@@ -41,7 +40,6 @@ class musamoduuli {
 		require => Package['audacity'],
 	
 	}
-
 
 
    
