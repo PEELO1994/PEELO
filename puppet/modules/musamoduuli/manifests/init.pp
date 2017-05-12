@@ -43,6 +43,10 @@ class musamoduuli {
 	
 	}
 
+	exec { 'moi4':
+		command => '/usr/bin/guitarix &',		
+		require => Package['guitarix'],
+	}	
 
    
 }
