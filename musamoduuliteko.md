@@ -8,3 +8,8 @@ Moduuliin kuuluu seuraavat sovellukset: Lmms, Audacity, Guitarix jne.
 
 
 ## Eteneminen
+
+Aloitin etsimällä internetistä millaisia erilaisia ilmaisia musiikinteko sovelluksia olisi tarjolla
+ja etsin niistä mielestäni parhaat ja helppokäyttöisimmät. 
+Itse tekemisen aloitin luomalla uuden moduulin githubiin jonka nimeksi tuli musamoduuli.
+  
