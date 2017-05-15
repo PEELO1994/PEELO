@@ -106,4 +106,18 @@ Tämän ratkaisin luomalla uuden md tiedoston githubiini ja kirjoitin sinne halu
 näiden muutosten jälkeen asennuksen jälkeen terminaaliin tuli näkyviin haluamani viesti.
 
       
-    
+
+
+
+Lähteet:
+
+
+http://stackoverflow.com/questions/3004811/how-do-you-run-multiple-programs-in-parallel-from-a-bash-script
+
+http://terokarvinen.com/2017/aikataulu-%E2%80%93-palvelinten-hallinta-ict4tn022-2-%E2%80%93-5-op-uusi-ops-loppukevat-2017-p2
+
+https://docs.puppet.com/puppet/latest/types/exec.html
+
+https://docs.puppet.com/puppet/latest/types/package.html
+
+https://www.tecmint.com/free-music-creation-or-audio-editing-softwares-for-linux/
