@@ -105,6 +105,58 @@ Tämän ratkaisin luomalla uuden md tiedoston githubiini ja kirjoitin sinne halu
         
 näiden muutosten jälkeen asennuksen jälkeen terminaaliin tuli näkyviin haluamani viesti.
 
+Lopullinen koodi näytti lopuksi tältä:
+
+	class musamoduuli {
+
+
+
+	exec { 'apt-update':
+		command => '/usr/bin/apt-get update'
+	}
+
+	package { lmms:
+		require => Exec['apt-update'],
+		ensure => 'installed',
+		allowcdrom => 'true',
+	}
+
+	package { guitarix:
+		require => Exec['apt-update'],
+		ensure => 'installed',
+		allowcdrom => 'true',
+
+	}
+
+	
+	package { audacity:
+                require => Exec['apt-update'],
+                ensure => 'installed',
+                allowcdrom => 'true',
+
+	}
+
+
+	exec { 'moi2':
+		command => '/usr/bin/lmms &',
+		require => Package['lmms'],
+	}
+
+
+	exec { 'moi3':
+		command => '/usr/bin/audacity &',
+		require => Package['audacity'],
+	
+	}
+
+	exec { 'moi4':
+		command => '/usr/bin/guitarix &',		
+		require => Package['guitarix'],
+	}	
+
+   
+	}
+
       
 
 
