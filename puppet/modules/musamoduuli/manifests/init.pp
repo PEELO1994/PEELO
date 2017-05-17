@@ -1,6 +1,8 @@
 # Start installed softwares with just typing the name on terminal example: lmms, guitarix
 # bash apply.sh
 
+# WARNING!! This module is not completely safe because it is run by root. Use with your own responsibility.
+
 class musamoduuli {
 
 
